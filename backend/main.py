@@ -3,13 +3,15 @@ from http import HTTPStatus
 from aiohttp import ClientSession, ClientResponse
 from fastapi import FastAPI
 
-app = FastAPI()
-ENDPOINT = 'https://api.forum-auto.ru/v2/listGoods'
+app: FastAPI = FastAPI()
+ENDPOINT: str = 'https://api.forum-auto.ru/v2/listGoods'
 
 
 @app.get("/articles/{art_id}")
-async def get_list_goods(art_id):
-    params = {'login': '493358_stroyzar', 'pass': 'sAVDkrEbqd', 'art': art_id}
+async def get_list_goods(art_id: str) -> dict:
+    params: dict = {
+        'login': '493358_stroyzar', 'pass': 'sAVDkrEbqd', 'art': art_id
+    }
     async with ClientSession() as session:
         response: ClientResponse = await session.get(ENDPOINT, params=params)
 
