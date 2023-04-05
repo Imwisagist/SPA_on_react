@@ -1,0 +1,242 @@
+main{
+  background-image: url("../../../public/img/room.png");
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  padding: 8px 10px 62px 10px;
+  animation-duration: 3s;
+  animation-name: bg_image;
+  transition: all .5s linear;
+}
+
+@keyframes bg_image {
+  0% {
+    background-position: bottom 0 right -100%;
+  }
+
+  100%{
+    background-position: bottom 0 right 0;
+  }
+}
+
+
+.main__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 37px 0;
+}
+
+.main__desc{
+max-width: 531px;
+}
+
+.main__desc_title{
+  font-family: 'Roboto','Inter', 'sans-serif';
+  font-weight: 900;
+  font-size: 3.34rem;
+  line-height: 1.2em;
+  margin-top: 0;
+  animation-duration: 2.5s;
+  animation-name: desc_title;
+  position: relative;
+  transition-timing-function: ease;
+}
+
+@keyframes desc_title {
+  0% {
+    left: -200%;
+  }
+
+  100%{
+    left: 0;
+  }
+}
+
+.main__desc_subtitle{
+  max-width: 332px;
+  font-family: 'Roboto', 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size:  1.5rem;
+  line-height: 1.16em;
+  margin-bottom: 5px;
+  animation-duration: 2.8s;
+  animation-name: desc_title;
+  position: relative;
+  transition-timing-function: ease;
+}
+
+.main__desc_hr{
+  width: 173.03px;
+  height: 5px;
+  background: #BAF1FF;
+  margin: 0 0 50px 0;
+  animation-duration: 2.9s;
+  animation-name: desc_title;
+  position: relative;
+  transition-timing-function: ease;
+}
+.main__desc_advantages{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8px;
+  animation-duration: 3s;
+  animation-name: desc_title;
+  position: relative;
+  transition-timing-function: ease;
+}
+.main__desc_advantage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 210px;
+}
+
+.desc__advantages_text{
+  max-width: 148px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.87rem;
+  line-height: 1.21em;
+}
+
+.main__calculate_cost{
+  width: 100%;
+  position: relative;
+  max-width: 508px;
+  padding: 29px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: #000000;
+  animation-duration: 2.5s;
+  animation-name: calculate;
+  transition-timing-function: ease;
+}
+
+@keyframes calculate {
+  0% {
+    right: -100%;
+  }
+
+  100%{
+    right: 0;
+  }
+}
+
+.calculate__cost{
+  max-width: 270px;
+  font-family: 'Roboto', 'Inter', 'sans-serif';
+  font-weight: 600;
+  font-size: 1.56rem;
+  line-height: 1.2em;
+  margin: 0 0 20px 0;
+}
+
+.calculate__apartment_area{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.apartment__area_title{
+  font-family: 'Roboto', 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.apartment__area_meters{
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.apartment__area_range{
+  height: 12px;
+  background: #BE69D5;
+  border-radius: 4px;
+  margin-bottom: 34px;
+}
+
+.calculate__type_wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 130px);
+  margin-bottom: 38px;
+  margin-left: 9px;
+  row-gap: 29px;
+  column-gap: 18px;
+}
+
+.calculate__rooms_wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  margin-bottom: 38px;
+  margin-left: 9px;
+  row-gap: 30px;
+  column-gap: 12px;
+}
+
+.calculate__title{
+  font-family: 'Roboto', 'Inter', 'sans-serif';
+  font-style: normal;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.calculate__btn_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.scroll__wrapper{
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-duration: 3s;
+  animation-name: scroll;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes scroll {
+  0% {
+    top: 0
+  }
+
+  50%{
+    top: 30px;
+  }
+
+  100%{
+    top: 0
+  }
+}
+
+.scroll__text{
+  margin-top: 14px;
+  font-family:  'Roboto', 'Inter', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9rem;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.table__link{
+  margin: 100px 0 0 0;
+  text-align: center;
+  position: relative;
+  animation-duration: 3s;
+  animation-name: desc_title;
+  transition-timing-function: ease;
+}

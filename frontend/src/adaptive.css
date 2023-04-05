@@ -1,0 +1,96 @@
+@media screen and (max-width: 1100px) {
+
+    .main__wrapper {
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    header {
+        margin: 10px 0 0 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 15px;
+    }
+
+    .logo{
+        margin: 0 auto 25px auto;
+    }
+
+    .menu__popup {
+        left: -150px;
+        gap: 15px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        align-items: flex-end;
+    }
+
+    .logo{
+        margin: 0 auto 15px auto;
+    }
+
+    .nav__link {
+        padding-left: 19px;
+    }
+
+    main {
+        background-image: url(http://localhost:3000/static/media/room.a5ade7d0d3c650c96cf9.png);
+        background-repeat: no-repeat;
+        background-position: bottom 0 right 0;
+        padding: 8px 10px 62px 10px;
+    }
+
+    .main__desc_title {
+        text-align: center;
+    }
+
+    .main__desc_subtitle {
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .main__desc_hr {
+        margin: 0px auto 10px auto;
+    }
+
+    .main__desc_advantages {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main__desc_advantage{
+        margin: 0 auto;
+    }
+
+    .calculate__title {
+        text-align: center;
+    }
+
+    .btn{
+        margin: 0 auto;
+    }
+
+    .menu__popup {
+        left: -145px;
+        gap: 15px
+    }
+
+    .menu__label {
+        left: -20px;
+    }
+
+
+
+
+
+}
+

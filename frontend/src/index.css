@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+
+
+body {
+  margin: 0;
+  background: linear-gradient(99.89deg, #3625AF 0%, #C46BD5 98.82%) no-repeat;
+  color: white;
+  height: 1800px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: .8;
+  transition: all .3s ease;
+}
+
+button:hover{
+  background: #7438be;
+  transition: all .3s ease;
+}

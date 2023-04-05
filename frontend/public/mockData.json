@@ -1,0 +1,67 @@
+[
+  {
+    "gid": "143431W20",
+    "brand": "KNECHT",
+    "art": "OC47",
+    "name": "Фильтр масляный",
+    "d_deliv": 1,
+    "h_deliv": 16,
+    "kr": 1,
+    "num": 50,
+    "price": 302,
+    "whse": "MSK",
+    "is_returnable": 1
+  },
+  {
+    "gid": "25355541S53413474239W308972",
+    "brand": "MAHLE",
+    "art": "OC 47",
+    "name": "Фильтр масляный Audi\/VW Knecht",
+    "d_deliv": 3,
+    "h_deliv": 64,
+    "kr": 1,
+    "num": 50,
+    "price": 311,
+    "whse": "MSK-CD",
+    "is_returnable": 0
+  },
+  {
+    "gid": "25355541S53431150535W308972",
+    "brand": "MAHLE",
+    "art": "OC 47",
+    "name": "Фильтр масляный Audi\/VW Knecht",
+    "d_deliv": 2,
+    "h_deliv": 40,
+    "kr": 1,
+    "num": 50,
+    "price": 365.5,
+    "whse": "MSK-CD",
+    "is_returnable": 1
+  },
+  {
+    "gid": "25355541S53432936207W308972",
+    "brand": "MAHLE",
+    "art": "OC 47",
+    "name": "Фильтр масляный Audi\/VW Knecht",
+    "d_deliv": 2,
+    "h_deliv": 40,
+    "kr": 1,
+    "num": 7,
+    "price": 1542.8,
+    "whse": "MSK-CD",
+    "is_returnable": 0
+  },
+  {
+    "gid": "143431W102261",
+    "brand": "KNECHT",
+    "art": "OC47",
+    "name": "Фильтр масляный",
+    "d_deliv": 1,
+    "h_deliv": 22,
+    "kr": 1,
+    "num": 3,
+    "price": 302,
+    "whse": "VRN",
+    "is_returnable": 1
+  }
+]
