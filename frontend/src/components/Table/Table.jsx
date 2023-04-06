@@ -15,11 +15,10 @@ const Table = () => {
       setLoading(true)
       const {data} = await axios.get(url);
       if ("errors" in data){
-        const {data} = ''
         setLoading(false)
       }
       else{setData(data)}
-    }
+      }
     catch (error) {
       setLoading(false)
       alert(error);

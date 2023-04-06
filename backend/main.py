@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 origins: list = [
-    "http://localhost:3000",
+    "http://localhost:3010",
     "http://localhost",
     "http://localhost:8010",
 ]
@@ -33,12 +33,10 @@ async def get_list_goods(art_id):
 
         if response.status != HTTPStatus.OK:
             return {
-                'result': 'Remote API not available. Status code - {0}'.format(
+                'errors': 'Remote API not available. Status code - {0}'.format(
                     response.status
                 )
             }
         response_json: dict = await response.json()
-        if 'errors' in response_json:
-            return response_json.get('errors').get('FaultString')
 
         return response_json
