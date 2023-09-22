@@ -1,4 +1,4 @@
-# Let's get started:
+# SPA on react
 
 ### Clone repository and enter in directory infra:
 ```bash
